@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,500;0,600;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Indie+Flower&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    }
+body {
+    margin: 0;
+    padding: 0;
+    color:white;
+    font-family: "poppins",sans-serif;
+    background-image:url(bg.jpg);
+    backdrop-filter: blur(2px);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;}
+header{ 
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+    background: rgba(0,0,0,0.5);
+}
+header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navbar .nav-logo .logo-text{
+    color: white;
+    font-family: poppins ;
+    font-size: 35px;
+    font-weight: 500;
+} 
+
+ .navbar .nav-menu .nav-link{
+    color: white;
+    display: flex;
+    font-size: 17px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+
+ }
+.navbar .nav-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-menu .nav-link:hover{
+    color: black ;
+    background: peachpuff;
+
+}
+
+
+ul{
+    list-style: none;
+}
+.title1{
+    font-size: 100px;
+    text-align: right;
+    margin-right: 30px;
+    font-family: Gravitas;
+}
+.title2{
+    font-size: 150px;
+    text-align: right;
+    margin-right: 30px;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+}
+.title3{
+    color: white;
+    text-align: right;
+    font-family: Indie Flower;
+    margin-right: 40px;
+
+}
+aside{
+    width:50%;
+    float: left;
+    padding: 60px;
+    }
+img{
+    max-width: 109%;
+    height: auto;
+}
+.description{
+    margin: 0 auto;
+    font-family: Indie Flower;
+    padding: 0 40px;
+    max-width: 1300px;
+    text-align: left;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    
+    background-color:rgba(0,0,0,0.5);
+    color: white;
+    
+    padding: 40px;
+    font-size: 23px;
+    border-radius: 17px;}
+    
+
+.buttonorder-now{
+    color: white;
+    font-size: 17px;
+    padding: 15px;
+    position: absolute;
+    border-radius: 8px;
+    top: 365px;
+    left: 240px;
+    background-color:rgba(0,0,0,0.5);
+    color: white;
+    transition: 0.3s ease;
+}
+
+.buttonorder-now:hover{
+    color: black ;
+    background: peachpuff;}
+.pg2{
+    border: none;
+    height: 5px;
+    border-width: 10px;
+    background-color: transparent;
+}
+
+
+.gallery-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 50px;
+margin-top: 30px;
+max-width: 1200px;
+margin-left: 20px;
+margin-right: 20px;
+font-size: 30px;
+text-align: center;
+font-family: Indie Flower;
+transition: transform 2s ease;
+} 
+a{ color: white;
+font-weight: bold;
+    
+}
+
+.gal{
+    font-size: 40px;
+    font-family: poppins;
+    text-align: center;
+}
+img{
+    width:100%;
+    border-radius: 13px;
+    height: 300px;
+    object-fit: cover;
+}
+.about{
+    font-family: Indie Flower;
+    color: black;
+    background: peachpuff;
+    font-size: 30px;
+    padding: 40px;
+    justify-items: center;
+    
+}
+.fa-instagram,.fa-facebook,.fa-x,.fa-linkedin{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.contact{
+    background: peachpuff;
+    color: #000;
+    padding: 25px;
+    text-align: center;
+}
+form{justify-self: center;}
+.contact form {
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+max-width: 500px;
+}
+
+
+.contact input, .contact textarea {
+margin-bottom: 15px;
+padding: 10px;
+border: 1px solid #ddd;
+border-radius: 8px;
+font-family: 'Poppins', sans-serif;
+}
+
+
+.contact button {
+background: black;
+color: white;
+border: none;
+padding: 12px;
+border-radius: 20px;
+cursor: pointer;
+font-size: 1rem;}
+footer{
+    background: black;
+    color: white;
+    padding: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
